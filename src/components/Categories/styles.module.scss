@@ -1,0 +1,54 @@
+.categoria{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+
+    .cima{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+
+
+        >button{
+            border-radius: 999px;
+            gap: 20px;
+            margin: 20px;
+            margin-top: 40px;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            margin-left: 1rem auto;
+            background-color: rgb(185, 143, 27);
+        }
+    }
+
+    .baixo{
+
+        >button{
+            border-radius: 999px;
+            gap: 20px;
+            margin: 20px;
+            margin-top: 340px;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            background-color: rgb(185, 143, 27);
+
+
+        }
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: -250px;
+        color: #d6ba00;
+        
+    }
+
+
+
+}
